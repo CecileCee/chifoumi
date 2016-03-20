@@ -24,7 +24,8 @@ body {
 
 select, input {
   background-color: darkturquoise;
-  color: rgb(255,255,255);
+  color: #FFFFFF;
+  border: 0.3px solid #FFFFFF;
   font-size: 12pt;
   height: 30px;
 }
