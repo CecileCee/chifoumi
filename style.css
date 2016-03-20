@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: darkturquoise;
+}
+
+#container {
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  height: 200px;
+  background-color: #FFFFFF;
+  /*border: 1px solid pink;*/
+  margin: 200px auto;
+}
+
+.menuJeu {
+  display: flex;
+  flex-flow: nowrap row;
+  height: 70px;
+}
+
+select, input {
+  background-color: darkturquoise;
+  color: rgb(255,255,255);
+  font-size: 12pt;
+  height: 30px;
+}
+
+#menuChoix {
+  width: 180px;
+}
+
+#affiche {
+  /*border: 1px solid #470cad;*/
+  color: #cf684d;
+  width: 200px;
+  font-size: 10pt;
+  text-align: center;
+}
+
+#pourcentage {
+  width: 200px;
+  padding-top: 5px;
+  color: #b6b6b6;
+  text-align: center;
+  font-size: 8pt;
+}
